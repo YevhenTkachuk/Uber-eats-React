@@ -1,0 +1,15 @@
+.search__label::before {
+    content: url(img/Shapesearch.svg);
+    position: absolute;
+    top: 150px;
+}
+
+.search__input {
+    width: 1124px;
+    height: 79px;
+    border: none;
+    border-bottom: 1px solid var(--border_light_grey);
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+    outline: none;
+}
