@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router": "latest",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
-    "react-router": "latest"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,6 +33,17 @@
     ]
   },
   "devDependencies": {
-    "prettier": "1.18.2"
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
