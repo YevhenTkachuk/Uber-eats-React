@@ -1,0 +1,28 @@
+.type_food {
+  font-family: var(--main_font);
+  color: var(--font_grey);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  text-align: center;
+  height: 80px;
+  padding-right: 25px;
+  box-sizing: content-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.type_food:hover {
+  color: var(--font-green);
+}
+
+.type_food--active {
+  font-family: var(--main_font);
+  color: var(--main_font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
