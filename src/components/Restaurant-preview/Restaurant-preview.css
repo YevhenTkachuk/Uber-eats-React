@@ -24,8 +24,9 @@
   position: relative;
   top: 0;
   transition: top 0.3s ease-out;
+  object-fit: cover;
 }
 
-.restaurant-preview__photo:hover .restaurant-preview__photo {
-  top: 10px;
+.restaurant-preview__photo:hover {
+  top: -10px;
 }

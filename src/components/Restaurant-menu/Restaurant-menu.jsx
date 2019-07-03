@@ -8,8 +8,8 @@ export function RestaurantMenu() {
         <nav className="restaurant-menu">
             <div className="restaurant-menu__wrapper">
                 <ul className="restaurant-menu__type">
-                    {Data.sections.map((section, j) => {
-                        return <TypeOfFood key={j} anchor={`#${section.title}`} type={section.title} />
+                    {Data.sections.map((section, index) => {
+                        return <TypeOfFood key={index} anchor={`#${section.title}`} type={section.title} />
                     })}
                 </ul>
             </div>

@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "./Header/Header.jsx";
-import "./variables.css";
-import "./Main-page/Main-page.css";
-import { Footer } from "./Footer/Footer.jsx";
-import { MainPage } from "./Main-page/Main-page.jsx";
+import { Header } from "./components/Header/Header.jsx";
+import "./components/variables.css";
+import "./components/Main-page/Main-page.css";
+import { Footer } from "./components/Footer/Footer.jsx";
+import { MainPage } from "./components/Main-page/Main-page.jsx";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { RestaurantPage } from "./Restaurant-page/Restaurant-page.jsx";
+import { RestaurantPage } from "./components/Restaurant-page/Restaurant-page.jsx";
 
 function App() {
   return (
