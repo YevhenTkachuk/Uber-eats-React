@@ -3227,5 +3227,43 @@ export const restaurants = [
     largeImageUrl:
       "https://uber-eats-mates.herokuapp.com/images/2c1e54e4-009d-4c2f-9720-6eeba8b179b2.jpg",
     priceBucket: "₴₴"
+  },
+  {
+    uuid: "43f6d4f5-605b-46b9-9760-7682e37b8c99",
+    title: "Gogi (вул. Мала Житомирська)",
+    imageUrl:
+      "https://uber-eats-mates.herokuapp.com/images/dfae85a2-6a62-462a-9663-f137309bad1c.jpg",
+    location: {
+      latitude: 50.45342180000001,
+      longitude: 30.51961,
+      address: "Mala Zhytomyrska St, 15"
+    },
+    categories: [
+      { uuid: "Georgian", name: "Грузинська", keyName: "Georgian" },
+      {
+        uuid: "Pastry",
+        name: "Випічка",
+        keyName: "Pastry"
+      },
+      { uuid: "European", name: "Європейська", keyName: "European" }
+    ],
+    endorsement: "Традиційні грузинські хінкалі та хачапурі",
+    tags: [
+      { uuid: "Georgian", name: "Грузинська", keyName: "Georgian" },
+      {
+        uuid: "European",
+        name: "Європейська",
+        keyName: "European"
+      },
+      { uuid: "Pastry", name: "Випічка", keyName: "Pastry" }
+    ],
+    etaRange: { min: 45, max: 55, raw: 50 },
+    sellsAlcohol: false,
+    slug: "gogi-вул-мала-житомирська",
+    rawRatingStats: { storeRatingScore: 4.755868544600939, ratingCount: "213" },
+    publicContact: { publicPhoneNumber: "+380930574745" },
+    largeImageUrl:
+      "https://uber-eats-mates.herokuapp.com/images/2c1e54e4-009d-4c2f-9720-6eeba8b179b2.jpg",
+    priceBucket: "₴₴"
   }
 ];
