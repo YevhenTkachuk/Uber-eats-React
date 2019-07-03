@@ -1,4 +1,4 @@
-.type_food {
+.type-of-food__link {
   font-family: var(--main_font);
   color: var(--font_grey);
   font-weight: normal;
@@ -14,11 +14,11 @@
   align-items: center;
 }
 
-.type_food:hover {
+.type-of-food__link:hover {
   color: var(--font-green);
 }
 
-.type_food--active {
+.type-of-food__link--active {
   font-family: var(--main_font);
   color: var(--main_font);
   font-weight: normal;

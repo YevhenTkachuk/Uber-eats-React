@@ -3,8 +3,8 @@ import "./Order-info.css";
 
 export function OrderInfo() {
   return (
-    <div className="order-info__wrapper">
-      <div className="order-info">
+    <div className="order-info">
+      <div className="order-info__wrapper">
         <button className="order-info__time" type="button">
           ASAP
         </button>

@@ -3,7 +3,7 @@ import "./Search.css";
 
 export function Search() {
   return (
-    <div className="search__wrapper ">
+    <div className="search ">
       <label className="search__label">
         <input
           type="text"

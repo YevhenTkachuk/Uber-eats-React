@@ -3,8 +3,8 @@ import './Type-of-food.css';
 
 export function TypeOfFood(props) {
     return (
-        <li><a href={props.anchor}
-               className="type_food">{props.type}</a>
+        <li    className="type-of-food"><a href={props.anchor}
+               className="type-of-food__link">{props.type}</a>
         </li>
     )
 }

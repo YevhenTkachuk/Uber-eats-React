@@ -9,9 +9,9 @@ export function Dish(props) {
         <div className="dish">
             <a href="javascript:void(0)" className="dish__basket">
                 <div className="dish__content">
-                    <span className="content__title">{title}</span>
-                    {itemDescription  ? <span className="content__options">{itemDescription}</span> : null}
-                    <span className="content__price">${prices} ₴</span>
+                    <span className="dish__title">{title}</span>
+                    {itemDescription  ? <span className="dish__options">{itemDescription}</span> : null}
+                    <span className="dish__price">${prices} ₴</span>
                 </div>
                 {imageUrl  ? <img src={imageUrl} alt="" className="dish__photo-preview"/> : null}
             </a>

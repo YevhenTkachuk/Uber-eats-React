@@ -4,9 +4,10 @@ import {Data} from '../Data/Data';
 
 export function RestaurantTeaser() {
   return (
+    <div className="restaurant-teaser">
     <div className="restaurant-teaser__background">
       <div className="restaurant-teaser__wrapper">
-        <div className="restaurant-teaser">
+        <div className="restaurant-teaser__information">
           <span className="restaurant-teaser__title">{Data.title}</span>
           <div className="restaurant-teaser__footer">
             <span className="restaurant-teaser__price">{Data.priceBucket} • {Data.categories.map((category) => {
@@ -16,6 +17,7 @@ export function RestaurantTeaser() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

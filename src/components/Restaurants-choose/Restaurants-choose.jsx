@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 
 export function RestaurantChoose() {
   return (
-    <div className="restaurants-choose__list">
+    <div className="restaurants-choose">
       {restaurants.map((restaurant, i) => {
         return (
           <div className="restaurants-choose__wrapper" key={i}>
-            <Link className="restaurants-choose" to="/restaurant">
+            <Link className="restaurants-choose__link" to="/restaurant">
               <RestaurantPreview
                 title={restaurant.title}
                 categories={restaurant.categories}

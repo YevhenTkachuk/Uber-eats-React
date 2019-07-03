@@ -27,7 +27,7 @@
   justify-content: space-between;
 }
 
-.content__title {
+.dish__title {
   font-weight: normal;
   font-size: 16px;
   margin-top: 16px;
@@ -38,7 +38,7 @@
   text-decoration: none;
 }
 
-.content__options {
+.dish__options {
   font-family: var(--main_font);
   font-size: 13px;
   line-height: 21px;
@@ -47,7 +47,7 @@
   margin-bottom: 0;
 }
 
-.content__price {
+.dish__price {
   font-family: var(--main_font);
   font-weight: 500;
   font-size: 15px;

@@ -1,4 +1,4 @@
-.restaurants-choose__list {
+.restaurants-choose {
   display: flex;
   flex-wrap: wrap;
   width: calc(100% + 32px);
@@ -15,7 +15,7 @@
   padding-bottom: 20px;
 }
 
-.restaurants-choose {
+.restaurants-choose__link {
   width: 100%;
   display: flex;
   flex-direction: column;
